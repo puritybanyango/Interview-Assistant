@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PrepPal | Smile your way through the next Interview.</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-robot"></i>
+                <h2>PrepPal</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#practice-hub">Practice Hub</a></li>
+                <li><a href="#stats-section">Impact</a></li>
+            </ul>
+            <div class="buttons">
+                <a href="#" class="login-btn">Login</a>
+                <a href="#practice-hub" class="signup-btn">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Master Every Interview with AI</h1>
+            <p>Practice real interview questions, receive instant AI-powered feedback, improve your confidence, and land your dream job.</p>
+            <div class="hero-buttons">
+                <a href="#practice-hub" class="primary-btn">Start Practicing</a>
+                <a href="#practice-hub" class="secondary-btn">Browse Questions</a>
+            </div>
+            <div id="stats-section" class="stats">
+                <div class="stat">
+                    <h2>10K+</h2>
+                    <p>Practice Interviews</p>
+                </div>
+                <div class="stat">
+                    <h2>500+</h2>
+                    <p>Interview Questions</p>
+                </div>
+                <div class="stat">
+                    <h2>95%</h2>
+                    <p>Success Rate</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- PLACE YOUR CUSTOM IMAGE OR ILLUSTRATION HERE -->
+            <!-- Example: <img src="hero-banner.png" alt="Interview Preparation"> -->
+        </div>
+    </section>
+
+
+    <section id="practice-hub" class="hub-section">
+        <div class="hub-header">
+            <h2>Interactive Prep Corner</h2>
+            <p>Search key skills to review industry questions with preparation strategies.</p>
+        </div>
+
+        <div class="filter-controls">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-input" placeholder="Search questions (e.g., SQL, AI/ML, Product Management)...">
+            </div>
+            <div class="category-tabs" id="category-tabs">
+                <button class="tab-btn active" data-category="All">All Categories</button>
+                <button class="tab-btn" data-category="SQL">SQL</button>
+                <button class="tab-btn" data-category="Product Manager">Product Manager</button>
+                <button class="tab-btn" data-category="AI/ML">AI/ML</button>
+                <button class="tab-btn" data-category="UX Research">UX Research</button>
+            </div>
+        </div>
+
+        <div class="questions-grid" id="questions-container">
+  
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 PrepPal Platform.Cultivating tomorrow's global innovators. </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
