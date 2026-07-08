@@ -1,6 +1,5 @@
 const interviewQuestionBank = 
    [
- 
     {
         id: 1,
         category: "SQL",
