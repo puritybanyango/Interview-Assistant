@@ -145,7 +145,28 @@ body {
 
 .stat p { font-size: 0.9rem; color: #64748b; }
 
-.hero-image { flex: 0.8; }
+.hero-image { 
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    flex-direction:column; 
+    align-items: center;
+    gap:1.5 rem;
+}
+.hero-tagline {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2563eb;        
+    text-align: center;
+    letter-spacing: -0.02em;
+    width: 100%;          
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
 
 .hub-section {
     background: #ffffff;
@@ -308,7 +329,7 @@ footer {
     .hero-text p { margin: 0 auto 2.5rem auto; }
     .hero-buttons { justify-content: center; }
     .stats { justify-content: center; }
-    .hero-image { width: 100%; max-width: 450px; }
+    .hero-image img { width: 100%; max-width: 450px; }
 }
 
 @media (max-width: 600px) {

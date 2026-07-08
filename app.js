@@ -43,10 +43,6 @@ const interviewQuestionBank =
         question: "What does good database design and schema architecture mean to you in a data-first environment?",
         tip: "Emphasize high normalization balance, strict data integrity constraints, proactive query indexing, and making schemas simple for the developers to query."
     },
-
-    // ==========================================
-    // ROLE: Product Manager
-    // ==========================================
     {
         id: 8,
         category: "Product Manager",
@@ -132,8 +128,6 @@ const interviewQuestionBank =
         question: "What does good algorithmic ethics and explainability mean to you in a digital-first environment?",
         tip: "Emphasize high dataset neutrality, fast performance tracking, proactive bias resolution, and making predictions auditable for the user."
     },
-
-
     {
         id: 22,
         category: "UX Research",
