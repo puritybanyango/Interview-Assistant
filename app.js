@@ -182,7 +182,7 @@ function renderCards() {
     targetGrid.innerHTML = "";
 
     if (processedList.length === 0) {
-        targetGrid.innerHTML = `<p class="no-results"><i class="fa-regular fa-folder-open"></i><br>No interview items match your query. Try another keyword!</p>`;
+        targetGrid.innerHTML = `<p class="no-results"><br>No interview items match your query. Try again!</p>`;
         return;
     }
 
@@ -196,7 +196,7 @@ function renderCards() {
                 <h3>${item.question}</h3>
             </div>
             <div class="tip-box">
-                <strong><i class="fa-solid fa-lightbulb"></i> Prep Guide:</strong> ${item.tip}
+                <strong>Prep Guide:</strong> ${item.tip}
             </div>
         `;
         targetGrid.appendChild(structuralDiv);
